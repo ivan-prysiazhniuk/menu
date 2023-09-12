@@ -1,0 +1,5 @@
+RewriteEngine On
+#RewriteBase /
+#RewriteCond %{HTTP_HOST} ^192\.168\.0\.139:8081$
+#RewriteRule ^(.*)$ http://menu.loc:8081/$1 [L,R=302]
+#RewriteRule ^form$ form.php [NC]

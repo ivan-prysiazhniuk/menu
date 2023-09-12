@@ -1,0 +1,156 @@
+html {
+  background-color: black;
+  font-family: 'Chakra Petch', sans-serif;
+}
+.main {
+  margin: 0;
+  color: white;
+}
+.item .header {
+  font-size: 8.0em;
+  padding: 75px;
+}
+.header span {
+  padding-bottom: 14px;
+  display: block;
+}
+.item {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-width: 336px;
+  border-bottom: 1px solid black;
+  position: relative;
+}
+.info {
+  display: flex;
+  font-size: 3em;
+  height: 0;
+  overflow: hidden;
+  transition: height 0.6s ease-out;
+}
+.info span {
+  display: block;
+}
+.header, .info {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.ingredients {
+  width: 100%;
+  padding: 150px 100px 35px 50px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5));
+}
+video {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+}
+.video-wrapper {
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  overflow: hidden;
+}
+#loader-wrapper {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+#loader {
+  font-family: 'DM Mono', monospace;
+  font-size: 90px;
+  position: absolute;
+  left: calc(50% - 176px);
+  top: calc(50% - 32px);
+  display: inline-table;
+}
+#loader span {
+  margin: 4px;
+}
+.loading .content {
+  opacity: 0.1;
+}
+.test {
+  background-color: red;
+}
+
+
+/* ---aviation--- */
+.aviation .header {
+  font-family: 'Abril Fatface', regular;
+}
+.aviation .info span {
+  padding-top: 22px;
+}
+
+/* ---beesknees--- */
+.beesknees .header {
+  font-family: 'Gwendolyn', cursive;
+  font-size: 143px;
+}
+.beesknees .info span {
+  padding-top: 85px;
+}
+
+/* ---cosmo--- */
+.cosmo .header {
+  -webkit-text-stroke: 3px white;
+  font-family: 'Bungee Outline', cursive;
+  font-size: 113px;
+  padding: 102px 0 84px 85px;
+}
+.cosmo .info span {
+  padding-top: 25px;
+}
+
+/* ---blackwhite--- */
+.blackwhite .header {
+  font-family: 'Libre Barcode 128 Text', cursive;
+  font-size: 130px;
+  padding: 113px 0 79px 85px;
+}
+.blackwhite .info span {
+  padding-top: 22px;
+}
+
+/* ---blackwhite--- */
+.wildlife .header {
+  font-family: 'Amatic SC', cursive;
+  font-size: 140px;
+  padding: 78px 0 68px 85px;
+}
+.wildlife .info span {
+  padding-top: 25px;
+}
+
+/* ---redpleasure--- */
+.redpleasure .header {
+  font-family: 'Pacifico', cursive;
+  font-size: 105px;
+  padding: 68px 0 69px 85px;
+}
+.redpleasure .info span {
+  padding-top: 27px;
+}
+
+/* ---tequilasunset--- */
+.tequilasunset .header {
+  font-family: 'Cinzel Decorative', cursive;
+  font-weight: 700;
+  font-size: 85px;
+  padding: 77px 0 64px 85px;
+}
+.tequilasunset .info span {
+  padding-top: 23px;
+}
+.tequilasunset .header span.first {
+  padding-bottom: 0;
+}
+.tequilasunset .second {
+  padding-bottom: 0;
+  margin-top: -35px;
+  padding-left: 234px;
+}
