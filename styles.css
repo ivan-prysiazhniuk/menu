@@ -100,7 +100,7 @@ video {
   -webkit-text-stroke: 3px white;
   font-family: 'Bungee Outline', cursive;
   font-size: 113px;
-  padding: 102px 0 84px 85px;
+  padding: 102px 0 85px 85px;
 }
 .cosmo .info span {
   padding-top: 25px;
@@ -116,7 +116,7 @@ video {
   padding-top: 22px;
 }
 
-/* ---blackwhite--- */
+/* ---wildlife--- */
 .wildlife .header {
   font-family: 'Amatic SC', cursive;
   font-size: 140px;
@@ -141,7 +141,7 @@ video {
   font-family: 'Cinzel Decorative', cursive;
   font-weight: 700;
   font-size: 85px;
-  padding: 77px 0 64px 85px;
+  padding: 78px 0 64px 85px;
 }
 .tequilasunset .info span {
   padding-top: 23px;
@@ -153,4 +153,15 @@ video {
   padding-bottom: 0;
   margin-top: -35px;
   padding-left: 234px;
+}
+
+/* ---penicillin--- */
+.penicillin .header {
+  font-family: 'Special Elite', cursive;
+  font-weight: 900;
+  font-size: 102px;
+  padding: 123px 0 97px 85px;
+}
+.penicillin .info span {
+  padding-top: 25px;
 }
