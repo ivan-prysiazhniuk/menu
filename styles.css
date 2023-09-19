@@ -19,7 +19,7 @@ html {
   background-size: cover;
   background-position: center;
   min-width: 336px;
-  border-bottom: 1px solid black;
+  border-top: 0.1px solid black;
   position: relative;
 }
 .info {
@@ -81,6 +81,8 @@ video {
 /* ---aviation--- */
 .aviation .header {
   font-family: 'Abril Fatface', regular;
+  font-size: 126px;
+  padding-bottom: 77px;
 }
 .aviation .info span {
   padding-top: 22px;
@@ -99,8 +101,8 @@ video {
 .cosmo .header {
   -webkit-text-stroke: 3px white;
   font-family: 'Bungee Outline', cursive;
-  font-size: 113px;
-  padding: 102px 0 85px 85px;
+  font-size: 111px;
+  padding: 103px 0 86px 85px;
 }
 .cosmo .info span {
   padding-top: 25px;
@@ -119,8 +121,8 @@ video {
 /* ---wildlife--- */
 .wildlife .header {
   font-family: 'Amatic SC', cursive;
-  font-size: 140px;
-  padding: 78px 0 68px 85px;
+  font-size: 139px;
+  padding: 78px 0 69px 85px;
 }
 .wildlife .info span {
   padding-top: 25px;
@@ -129,8 +131,8 @@ video {
 /* ---redpleasure--- */
 .redpleasure .header {
   font-family: 'Pacifico', cursive;
-  font-size: 105px;
-  padding: 68px 0 69px 85px;
+  font-size: 106px;
+  padding: 67px 0 69px 85px;
 }
 .redpleasure .info span {
   padding-top: 27px;
@@ -141,7 +143,7 @@ video {
   font-family: 'Cinzel Decorative', cursive;
   font-weight: 700;
   font-size: 85px;
-  padding: 78px 0 64px 85px;
+  padding: 79px 0 63px 85px;
 }
 .tequilasunset .info span {
   padding-top: 23px;
@@ -164,4 +166,14 @@ video {
 }
 .penicillin .info span {
   padding-top: 25px;
+}
+
+/* ---darkstormy--- */
+.darkstormy .header {
+  font-family: 'IM Fell English SC', serif;
+  font-size: 104px;
+  padding: 103px 0 87px 85px;;
+}
+.darkstormy .info span {
+  padding-top: 85px;
 }
