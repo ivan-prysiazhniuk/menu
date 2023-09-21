@@ -172,8 +172,30 @@ video {
 .darkstormy .header {
   font-family: 'IM Fell English SC', serif;
   font-size: 104px;
-  padding: 103px 0 87px 85px;;
+  padding: 103px 0 87px 85px;
 }
 .darkstormy .info span {
   padding-top: 85px;
+}
+
+/* ---revo--- */
+.revo .header {
+  font-family: 'Koulen', cursive;
+  font-size: 110px;
+  padding: 65px 0 59px 85px;
+}
+.revo .header span {
+  padding-left: 10px;
+}
+.revo .info span {
+  padding-top: 85px;
+}
+.header i {
+  transform: rotate(-13deg);
+  display: block;
+  width: fit-content;
+  font-weight: 900;
+  text-shadow: 6px -6px 0 black, 6px 0px 0 black, 6px 6px 0 black, -6px -6px 0 black,
+    -6px 0px 0 black, -6px 6px 0 black, 0px -6px 0 black, 0px 6px 0 black, -13px 15px 0 black,
+    -8px -4px 0 black, -2px 15px 0 black, 5px 15px 0 black, 12px 15px 0 black, 13px 0px 0 black;
 }
